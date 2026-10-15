@@ -9,6 +9,27 @@ A lightweight cross-browser extension that automatically groups open tabs by dom
 🦊 **[Firefox Add-ons](https://addons.mozilla.org/en-US/firefox/addon/auto-tab-groups/)**
 🌐 **[Chrome Web Store](https://chromewebstore.google.com/detail/auto-tab-groups/cmolegdbajakaekbamkdhonkaldgield)**
 
+## 📦 Install this fork
+
+This fork carries a sort fix that is not in the store builds. Download the zip for your browser from the [latest release](https://github.com/infixlabs/auto-tab-groups/releases/latest) and unzip it.
+
+**Brave / Chrome / Edge**
+
+1. Open `brave://extensions` (or `chrome://extensions`)
+2. Turn on **Developer mode** (top right)
+3. Click **Load unpacked** and select the unzipped folder
+
+To update, unzip the newer release over the old folder and click the reload icon on the extension card.
+
+**Firefox**
+
+1. Open `about:debugging#/runtime/this-firefox`
+2. Click **Load Temporary Add-on** and select `manifest.json` inside the unzipped folder
+
+Firefox unloads temporary add-ons when it restarts, so load it again after a restart. Firefox release only runs add-ons signed by Mozilla.
+
+**Safari:** not supported.
+
 ## Example of tab groups in the navigation bar
 
 [![Example of the extension in Chrome](images/chrome-images/tab-groups-with-popup.png)](https://chromewebstore.google.com/detail/auto-tab-groups/cmolegdbajakaekbamkdhonkaldgield)
