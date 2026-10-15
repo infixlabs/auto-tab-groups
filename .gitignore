@@ -1,5 +1,6 @@
 # WXT build output
 .output/
+output/
 .wxt/
 
 # Dependencies

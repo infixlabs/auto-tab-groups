@@ -29,6 +29,7 @@ function stubWebLlmForFirefox(): Plugin {
 // See https://wxt.dev/api/config.html
 export default defineConfig({
   manifestVersion: 3,
+  outDir: "output",
   vite: ({ browser }) => ({
     plugins: browser === "firefox" ? [stubWebLlmForFirefox()] : []
   }),
