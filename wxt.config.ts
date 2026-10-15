@@ -89,7 +89,7 @@ export default defineConfig({
         ...baseManifest,
         browser_specific_settings: {
           gecko: {
-            id: "{442789cf-4ff6-4a85-bf5b-53aa3282f1a2}",
+            id: "auto-tab-groups-fork@infixlabs",
             strict_min_version: "142.0",
             data_collection_permissions: {
               required: ["none"]
